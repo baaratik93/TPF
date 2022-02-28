@@ -1,0 +1,41 @@
+#app {
+  background-image: url("../imgUrl/img.jpg");
+}
+
+#app > #navigation {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+#app > #navigation a {
+  text-decoration: none;
+  display: block;
+}
+
+#app > #navigation ul {
+  background-color: #344d4d;
+  margin-top: -55px;
+  padding: 1.1em;
+  border-radius: 0 0 0 1.5em;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#app > #navigation ul li {
+  display: inline-block;
+}
+
+#app > #navigation ul li a {
+  color: wheat;
+  font-size: 1em;
+  letter-spacing: 1px;
+  margin-top: 5px;
+  padding: .3em;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

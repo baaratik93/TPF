@@ -1,0 +1,35 @@
+#app {
+    //background: linear-gradient(45deg, tomato, green, red);
+    background-image: url("../imgUrl/img.jpg");
+    & > #navigation {        
+        display: grid;
+        grid-auto-flow: column;
+        a {
+            text-decoration: none;
+            display: block;
+        }
+        ul {
+            background-color: rgb(52, 77, 77);
+            margin-top: -55px;
+            padding: 1.1em;
+            border-radius: 0 0 0 1.5em;
+            display: grid;    
+            grid-auto-flow: column;
+            position: fixed;
+            top: 0;
+            right: 0;
+            li {
+                display: inline-block;
+                
+                a {
+                    color: wheat;
+                    font-size: 1em;
+                    letter-spacing: 1px;
+                    margin-top: 5px;
+                    padding: .3em;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
