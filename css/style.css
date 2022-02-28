@@ -14,7 +14,7 @@
 }
 
 #app > #navigation ul {
-  background-color: #344d4d;
+  background-color: #dbecec;
   margin-top: -55px;
   padding: 1.1em;
   border-radius: 0 0 0 1.5em;
@@ -31,7 +31,7 @@
 }
 
 #app > #navigation ul li a {
-  color: wheat;
+  color: #312f2a;
   font-size: 1em;
   letter-spacing: 1px;
   margin-top: 5px;
